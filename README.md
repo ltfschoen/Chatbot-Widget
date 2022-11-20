@@ -39,6 +39,10 @@
 ## Instructions
 - You can read the instructions here in [instructions.md](docs/instructions.md)
 
+- Replace with Public IP address (instead of `localhost`) where the Rasa server is hosted in static/js/constants.js
+- Run `open -a "Google Chrome" ./index.html`
+- Refer to Restful app instructions in README of rasa-qa-bot repo to interact with bot
+
 ## Documentation
 - Check out the documentation on how to send bot response from Rasa in [response.md](docs/responses.md)
 - If you want to modify the UI elements, you can read on how to do here: [modifications.md](docs/modifications.md)

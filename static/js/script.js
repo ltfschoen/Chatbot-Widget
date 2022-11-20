@@ -30,6 +30,9 @@ window.addEventListener('load', () => {
     // Bot pop-up intro
     $("div").removeClass("tap-target-origin");
 
+    // Open the chatbot immediately
+    $("#profile_div").click();
+
     // drop down menu for close, restart conversation & clear the chats.
     $(".dropdown-trigger").dropdown();
 
@@ -44,6 +47,7 @@ window.addEventListener('load', () => {
     // if you want the bot to start the conversation
     // customActionTrigger();
   });
+
   // Toggle the chatbot screen
   $("#profile_div").click(() => {
     $(".profile_div").toggle();
